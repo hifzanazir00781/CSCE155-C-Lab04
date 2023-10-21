@@ -36,9 +36,14 @@ int main(int argc, char **argv) {
   }
   printf("\n");
   //2. Rewrite the given while loop as an equivalent for loop
-  int k = 3;
-  while(k > -4) {
-    printf("%d ", k);
+  // int k = 3;
+  // while(k > -4) {
+  //   printf("%d ", k);
+  //   k--;
+  // }
+  for(int k=3;k>-4;k--)
+  {
+    printf("%d",k);
     k--;
   }
   printf("\n");
