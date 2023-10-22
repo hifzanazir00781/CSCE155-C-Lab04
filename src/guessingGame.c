@@ -31,17 +31,24 @@ int main(int argc, char **argv) {
   printf("Enter a number between 1 and %d\n", n);
 
   //TODO: place your code here
+  // using do while loop
   do
   {
+    // prompt the guess from user
     scanf("%d",&guess);
+
+    // using if else condition (defining range between 1 and 1000)
     if(guess<1 || guess > 1000  )
     {
       printf("Invalid input please try again!\n");
     }
 
+    //in else condition increment on guess number.
     else
     {
       numGuesses++;
+
+      //using if else if condition (guess greater or less then number then try again )
       if(guess>number)
       {
         printf("too higher! try agian\n");
@@ -51,8 +58,11 @@ int main(int argc, char **argv) {
       {
         printf("too low! try again\n")
       }
+
+      // while condition for terminating the loop
     } while(guess != number);
 
+  //display the guess number.
   printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
   return 0;
 }
