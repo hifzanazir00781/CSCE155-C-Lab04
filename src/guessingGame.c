@@ -39,6 +39,20 @@ int main(int argc, char **argv) {
       printf("Invalid input please try again!\n");
     }
 
+    else
+    {
+      numGuesses++;
+      if(guess>number)
+      {
+        printf("too higher! try agian\n");
+
+      }
+      else if(guess<number)
+      {
+        printf("too low! try again\n")
+      }
+    } while(guess != number);
+
 
   printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
   return 0;
