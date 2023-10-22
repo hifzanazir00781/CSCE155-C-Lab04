@@ -1,6 +1,6 @@
 /**
- * Author(s):
- * Date:
+ * Author(s): Hifza Nazir
+ * Date: 2023/10/22
  *
  * This is a series of exercises to introduce loop
  * control structures.
