@@ -34,7 +34,7 @@ int main(int argc, char **argv) {
   do
   {
     scanf("%d",&guess);
-    if(guess<0 || guess > 1000  )
+    if(guess<1 || guess > 1000  )
     {
       printf("Invalid input please try again!\n");
     }
@@ -52,7 +52,6 @@ int main(int argc, char **argv) {
         printf("too low! try again\n")
       }
     } while(guess != number);
-
 
   printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
   return 0;
