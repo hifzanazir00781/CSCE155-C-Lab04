@@ -1,4 +1,6 @@
 /**
+ * Author: Hifza Nazir
+ * Date: 2023/10/22
  * This program plays a guessing game with the user.
  * It selects a random number between 1 and 1000 and
  * prompts the user to guess the value, informing them
