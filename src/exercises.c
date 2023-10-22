@@ -44,7 +44,7 @@ int main(int argc, char **argv) {
   for(int k=3;k>-4;k--)
   {
     printf("%d",k);
-    k--;
+  
   }
   printf("\n");
 
