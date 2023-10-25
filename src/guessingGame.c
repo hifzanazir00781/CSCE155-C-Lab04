@@ -58,13 +58,15 @@ int main(int argc, char **argv) {
       }
       else if(guess<number)
       {
-        printf("too low! try again\n")
+        printf("too low! try again\n");
       }
+    }
 
       // while condition for terminating the loop
     } while(guess != number);
-
+  
   //display the guess number.
   printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
-  return 0;
+
+   return 0;
 }
